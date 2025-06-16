@@ -12,10 +12,8 @@
 -   [When should we use PgBouncer?](when-should-we-use-pgbouncer?)
 -   [Dataflow Diagram](#Dataflow-Diagram)
 -   [Step-by-step installation & configuration of pgbouncer](#Step-by-step-installation-&-configuration-of-pgbouncer)
--   [Troubleshooting](#Troubleshooting)
 -   [Conclusion](#conclusion)
 -   [Contact Information](#contact-information)
--   [References](#references)
 
 # Overview:
 Connection pooling means that connections are reused rather than created each time when the connection is required.To facilitate connection reuse , a memory cache or DB connections, called connection pool.
