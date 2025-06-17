@@ -7,7 +7,6 @@
 # Table of content :
 -   [Overview](#overview)
 -   [Purpose of PgBouncer](#purpose-of-pgbouncer)
--   [System Requirements](#ystem-Requirements)
 -   [How does PgBouncer work?](#how-does-pgbouncer-work?)
 -   [When should we use PgBouncer?](when-should-we-use-pgbouncer?)
 -   [Dataflow Diagram](#Dataflow-Diagram)
@@ -125,7 +124,7 @@ and paste the pswd in double quotes format like shown below
 ```
 To check the hash pswd you can use the following method:
 ```
-SELECT usename , paaswd from pg_shadow;
+SELECT usename , passwd from pg_shadow;
 ```
 **Step 6:**
 Now connecting to the PostgreSQL without using pgbouncer. The following command will start a test with 1000 concurrent clients for 60 seconds, connecting directly to the PostgreSQL.
