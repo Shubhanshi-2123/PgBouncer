@@ -1,8 +1,8 @@
 # **Connection pooling in PostgreSQL :  PgBouncer**
 
-| **Author**    | **Created on** | **Version** | **Last updated on** | **Reviewed by** |
-|---------------|----------------|-------------|----------------------|------------------------|
-| Shubhanshi    | 11.06.2025     | v1          | 11.06.2025         | Deepak Nishad       |
+| **Author**    | **Created on** | **Version** | **Last updated on** |
+|---------------|----------------|-------------|----------------------|
+| Shubhanshi    | 11.06.2025     | v1          | 11.06.2025         |
 
 # Table of content :
 -   [Overview](#overview)
